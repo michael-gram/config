@@ -1,6 +1,5 @@
 scriptencoding utf-8
 " ^^ Please leave the above line at the start of the file.
-echom "Loaded vms/.VIMRC"
 
 source S:[MGRAM.SRC.CONFIG.CORE]VIMCONFIG.VIM
 
