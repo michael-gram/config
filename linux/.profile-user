@@ -1,0 +1,30 @@
+# Crazy ls customizations
+alias ls='ls -F --color'
+alias ll='ls -lh --color'
+alias la='ls -Alh --color'
+
+# For when I forget I'm not programming on a dinosaur
+alias xvim='gvim'
+
+# shortcuts for perforce
+alias p4va="p4view -a"
+alias p4vm="p4view -m"
+alias p4vd="p4view -d"
+alias  p4a="perf add"
+alias  p4e="perf edit"
+alias  p4s="perf sync"
+alias  p4d="perf diff"
+alias  p4o="perf opened"
+alias  p4c="perf client"
+alias  p4b="perf branch"
+alias p4ch="perf change"
+alias  p4i="perf integrate"
+alias  p4h="perf have"
+
+set -o vi
+export EDITOR=vim
+export MERGE=vimdiff
+#export PS1='[\[\033[31;1m\u\[\033[0m@\[\033[34;1m\h\[\033[0m \[\033[32m\w\[\033[0m]>> '
+export PS1="\[\e[0;35m\]\u\[\e[m\]@\[\e[0;31m\]\H\[\e[m\]:\[\e[0;34m\]\w\[\e[m\e[0;32m\]\$\[\e[m\] "
+
+source ~/.bashrc
