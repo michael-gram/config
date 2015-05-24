@@ -1,6 +1,5 @@
 scriptencoding utf-8
 " ^^ Please leave the above line at the start of the file.
-echo "Loaded core\/vimconfig.vim"
 
 """"""""""""" Custom stuff """"""""""""" 
 " indentation {

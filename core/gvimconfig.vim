@@ -1,6 +1,5 @@
 scriptencoding utf-8
 " ^^ Please leave the above line at the start of the file.
-echo "Loaded core\/gvimconfig.vim"
 
 set background=light
 highlight Normal guibg=#ffffe0
