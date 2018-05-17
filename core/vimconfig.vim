@@ -15,6 +15,7 @@ set smartcase
 " general {
 set hlsearch
 set showmatch
+set incsearch
 set ruler               " Show the cursor position all the time
 set nocompatible        " Use Vim defaults (much better!)
 set bs=2                " Allow backspacing over everything in insert mode
@@ -39,3 +40,8 @@ if matchstr(getline(0), "Perforce Change Specification") != ""
   :25
 endif
 " }
+
+set background=light
+colorscheme solarized
+
+execute pathogen#infect()
